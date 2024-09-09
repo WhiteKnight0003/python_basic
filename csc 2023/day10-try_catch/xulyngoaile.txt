@@ -1,0 +1,46 @@
+# python cho 2 tính năng quan trong để xử lý trong chương trình và thêm khả năng debug lỗi :
+
+# Assertions
+'''
+- là các kiểm tra mà ta có thể bật/tắt khi thực hiện việc kiểm tra chương trình
+'''
+
+# Exception Handling
+'''
+- lỗi (error) được phát hiện trong quá trình thực thi chương trình được gọi là ngoại lệ (exception)
+- 1 exception là 1 đối tượng của python đại diện cho 1 error
+- 1 exception là 1 sự kiện xuất hiện khi thực thi chương trình 
+- dùng try...except
+  try:
+     # khối lệnh có khả năng xảy ra lỗi
+  except loại_lỗi_1 as tên_biến_báo_lỗi_1 :
+    # in thông báo lỗi
+  except loại_lỗi_2 as tên_biến_báo_lỗi_2 :
+    # in thông báo lỗi
+  ....
+  else:
+     # khối lệnh khi không có exception nào xảy ra
+
+các loại lỗi hay gặp :
+- SyntaxError: Ngoại lệ này được đưa ra khi trình thông dịch gặp lỗi cú pháp trong mã, chẳng hạn như từ khóa sai chính tả, dấu hai chấm bị thiếu hoặc dấu ngoặc đơn không cân bằng.
+
+- TypeError: Ngoại lệ này được đưa ra khi một hoạt động hoặc hàm được áp dụng cho một đối tượng thuộc loại sai, chẳng hạn như thêm một chuỗi vào số nguyên.
+
+- NameError: Ngoại lệ này được đưa ra khi không tìm thấy biến hoặc tên hàm trong phạm vi hiện tại.
+  thường dùng khi dùng eval ép kiểu
+
+- IndexError: Ngoại lệ này được đưa ra khi một chỉ mục nằm ngoài phạm vi cho một danh sách, bộ dữ liệu hoặc các loại trình tự khác.
+
+- KeyError: Ngoại lệ này được nêu ra khi không tìm thấy khóa trong từ điển.
+
+- ValueError: Ngoại lệ này được đưa ra khi một hàm hoặc phương thức được gọi với một đối số hoặc đầu vào không hợp lệ, chẳng hạn như cố gắng chuyển đổi một chuỗi thành một số nguyên khi chuỗi không đại diện cho một số nguyên hợp lệ.
+  thường dùng khi biến là int , float ,...
+  
+- AttributeError: Ngoại lệ này được đưa ra khi không tìm thấy thuộc tính hoặc phương thức trên một đối tượng, chẳng hạn như cố gắng truy cập thuộc tính không tồn tại của phiên bản lớp.
+
+- IOError: Ngoại lệ này được đưa ra khi thao tác I / O, chẳng hạn như đọc hoặc ghi tệp, không thành công do lỗi đầu vào / đầu ra.
+
+- ZeroDivisionError: Ngoại lệ này được đưa ra khi một nỗ lực được thực hiện để chia một số cho không.
+
+- ImportError: Ngoại lệ này được đưa ra khi câu lệnh import không tìm thấy hoặc tải mô-đun.
+'''

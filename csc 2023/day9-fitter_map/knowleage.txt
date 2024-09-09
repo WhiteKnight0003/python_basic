@@ -1,0 +1,3 @@
+- map(), reduce(), filter() - là những built- in function hỗ trợ việc xử lý các sequence rất hiệu quả 
+
+- mục đích cảu lambda dùng để kết hợp với mấy cái kia

@@ -1,0 +1,31 @@
+BÀi 1
+Xây dựng chương trình tính tiền hàng theo công thức: Thành tiền= Số lượng * Đơn giá
+Lưu ý:
+- Số lượng và đơn giá được nhập vào từ bàn phím (Input)
+- Chương trình sẽ tính Thành tiền = Số lượng x Đơn giá
+và in ra thành tiền (Output)
+
+
+Bài 2
+Viết chương trình tính diện tích và chu vi hình tròn với yêu cầu sau:
+- Bán kính của hình tròn được nhập vào từ bàn phím (Input)
+- Chương trình sẽ tính:
+Chu vi = 2 x Bán kính x PI
+Diện tích = PI x Bán kính x Bán kính
+và in ra Chu vi và Diện tích (Output)
+Lưu ý:
+- Khai báo hằng số PI = 3.14
+- Nếu kết quả chu vi và diện tích là số thực, để xuất giá trị có 2 số thập phân ta phải định dạng chuỗi xuất ra (%.2f)
+
+Bài 3
+Viết chương trình tính tiền lãi gửi tiết kiệm.
+Trong đó:
+- Lãi suất một năm, số tiền gửi và số tháng gửi được nhập vào từ bàn phím.
+- Chương trình sẽ tính:
+Tiền lãi = (Số tiền gửi * Số tháng) * (Lãi suất năm/12)
+Tổng số tiền = Số tiền gửi + Tiền lãi
+và in ra kết quả.
+
+- Ví dụ: Lãi suất năm = 7.6, số tiền gửi = 10.000.000 vnđ, số tháng gửi = 6 tháng
++ Tiền lãi = (10000000 * 6) * (7.6/100/12) = 380000 vnđ
++ Tiền vốn + lãi = 10000000 + 380000 = 10380000 vnđ

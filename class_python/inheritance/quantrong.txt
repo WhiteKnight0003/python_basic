@@ -1,0 +1,9 @@
+So sánh Override và Overwrite:
+- Override thường giữ lại một số chức năng của phương thức gốc (thông qua super()), trong khi overwrite thay thế hoàn toàn.
+- Trong thực tế, thuật ngữ "override" thường được sử dụng cho cả hai trường hợp trong Python.
+
+
+Lưu ý quan trọng:
+- Khi override, đảm bảo tên phương thức và tham số phù hợp với phương thức của lớp cha.
+- Sử dụng super() khi bạn muốn mở rộng chức năng của phương thức cha, không hoàn toàn thay thế nó.
+- Cẩn thận khi overwrite để không vô tình loại bỏ chức năng quan trọng từ lớp cha.

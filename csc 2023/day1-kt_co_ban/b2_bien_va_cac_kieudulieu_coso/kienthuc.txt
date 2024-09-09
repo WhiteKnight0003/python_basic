@@ -1,0 +1,16 @@
+# kiến thức cơ bản
+- Tên được đặt cho biến (valiable)
+- Phương thức/ hàm : method / function
+- lớp : class
+- việc đặt tên được gọi là định danh - identifier
+- identifier bắt đầu bằng các ký tự A-Z , a-z or _ . tiếp đó là các ký tự chữ , số 0-9
+- identifier có phân biệt hoa thường
+- khi đặt tên , không dùng các kí tự nhie @ , # , $, % ...
+
+
+# định danh - identifier 
+- 1 số quy tắc : 
+  + tên class bắt đầu bằng chữ hoa còn lại chữ thường
+  + fuction viết thường , các từ nối với nhau bởi dấu _
+  + k dùng từ khóa (keyword ) trong python khi đặt tên cho bất cứ identifier nào
+
